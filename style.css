@@ -1,0 +1,38 @@
+div{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	display: inline;
+}
+
+h2{
+	text-align : center;
+}
+#dados-csv {
+	width: 100%;
+	border-collapse: collapse;
+	border: 3px;
+}
+
+#dados-csv tr:nth-child(even){background-color: #f2f2f2;}
+
+#dados-csv tr:hover {background-color: #ddd;}
+
+th,td {
+	border: 1px solid black;
+	padding: 8px;
+}
+th {
+	background-color: lightgray;
+}
+
+button{
+	background-color: #f6f6ee;
+	height: 25px;
+	margin: 5px 5px 5px 5px;
+	width: inline;
+	border-radius: 10px;
+	font-size: 16px;
+	box-shadow: 0 9px #999;
+}
+
